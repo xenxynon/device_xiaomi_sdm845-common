@@ -77,6 +77,9 @@ vendor.audio.tunnel.encode=false
 vendor.audio.use.sw.alac.decoder=true
 vendor.audio.use.sw.ape.decoder=true
 
+# Audio (Dolby)
+debug.stagefright.omx_default_rank.sw-audio=16
+
 # Bluetooth
 persist.bluetooth.a2dp_offload.disabled=false
 persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac

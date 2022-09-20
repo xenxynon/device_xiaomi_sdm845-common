@@ -15,6 +15,10 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 PRODUCT_PACKAGES += \
     offload.o
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/Image.gz:kernel
+
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
